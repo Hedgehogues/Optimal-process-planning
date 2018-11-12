@@ -35,7 +35,7 @@ of one of the previous files. The algorithm for selecting the following file is 
 ![7](https://latex.codecogs.com/svg.latex?i)-го файла. 
 
 Кроме того, одновременно в памяти не может находиться более ![6](https://latex.codecogs.com/svg.latex?C) файлов, т.е.
-![7](https://latex.codecogs.com/svg.latex?|\text{Memory}|\leq C). 
+![7](https://latex.codecogs.com/svg.latex?|\text{Memory}|\leq%20C). 
 
 В нашей задаче требуется минимизировать суммарное время выполнения, учитывая, что набор файлов обновляется после 
 завершения обработки одного из предыдущих файлов. Алгоритм выбора следующего файла состоит в следующем:
